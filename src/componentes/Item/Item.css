@@ -1,0 +1,40 @@
+.producto{
+    background-color: white;
+    border-radius: 7px;
+    padding: 7px;
+    width: 240px; 
+    margin: 0.2%;
+    height: 110%;
+}
+
+.img-producto{
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+    margin: 9px;
+}
+
+.agregar-carrito{
+    border: rgb(167, 91, 167);
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(167, 91, 167);
+    background-color: white;
+    width: 100%;
+    font-size: medium;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.agregar-carrito:hover{
+    background-color: whitesmoke;
+    color: rgb(100, 41, 100);
+}
+
+.descripcion{
+    height: 15%;
+}
+
+.titulo{
+    height: 8%;
+}
