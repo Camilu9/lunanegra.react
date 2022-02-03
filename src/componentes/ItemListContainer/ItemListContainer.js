@@ -8,7 +8,6 @@ function ItemListContainer({greeting}){
     const [misProductos, setMisProductos] = useState([]);
 
     useEffect(function(){
-        console.log('se ejecuta una vez');
         getItems().then(function(misProductos){
             setMisProductos(misProductos);
         })
