@@ -1,0 +1,19 @@
+.productoCard{
+    background-color: white;
+    width: 46%;
+    display: flex;
+    border-radius: 7px;
+}
+
+.productoCard div{
+    width: auto;
+    padding: 7px;
+}
+
+.divImg img{
+    width: 100%;
+}
+
+
+
+

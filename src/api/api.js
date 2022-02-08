@@ -4,6 +4,7 @@ const misProductos = [
         nombre: "Shampoo sólido de romero",
         cantidad: "110 gr",
         precio: 700,
+        categoria: "general",
         descripcion: "Limpia el cabello y el cuero cabelludo sin dejar exceso de oleosidad. Para cabellos grasos.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto1.jpg'
     },
@@ -12,6 +13,7 @@ const misProductos = [
         nombre: "Shampoo sólido de geranio",
         cantidad: "110 gr",
         precio: 700,
+        categoria: "general",
         descripcion: "Limpia el cabello y el cuero cabelludo sin dejar exceso de oleosidad. Para cabellos secos.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto1.jpg'
     },
@@ -20,6 +22,7 @@ const misProductos = [
         nombre: "Acondicionador sólido de vainilla",
         cantidad: "50 gr",
         precio: 580,
+        categoria: "general",
         descripcion: "Nutre el cabello y sella las cutículas del mismo post lavado. Para cabellos débiles.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto3.jpg'
     },
@@ -28,6 +31,7 @@ const misProductos = [
         nombre: "Acondicionador sólido de azahar",
         cantidad: "50 gr",
         precio: 580,
+        categoria: "general",
         descripcion: "Nutre el cabello y sella las cutículas del mismo post lavado. Para cabellos secos.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto4.jpg'
     },
@@ -36,6 +40,7 @@ const misProductos = [
         nombre: "Aceite de coco",
         cantidad: "100 gr",
         precio: 400,
+        categoria: "general",
         descripcion: "Humectante corporal, serum para cabellos con rulos u ondulados.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto5.jpg'
     },
@@ -44,6 +49,7 @@ const misProductos = [
         nombre: "Gel dental",
         cantidad: "100 gr",
         precio: 530,
+        categoria: "general",
         descripcion: "Limpia y desinfecta la boca. Poder antibacteriano y antifúngico.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto6.jpg'
     },
@@ -52,6 +58,7 @@ const misProductos = [
         nombre: "Desodorante sólido",
         cantidad: "45 gr",
         precio: 470,
+        categoria: "general",
         descripcion: "Evita la proliferación de olores en las axilas sin obstruir los poros. Antibacteriano y antifúngico.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto7.jpg'
     },
@@ -60,6 +67,7 @@ const misProductos = [
         nombre: "Desodorante en crema",
         cantidad: "100 gr",
         precio: 470,
+        categoria: "general",
         descripcion: "Evita la proliferacion de olores en las axilas sin obstruir los poros. Antibacteriano y antifúngico.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto8.jpg'
     },
@@ -68,6 +76,7 @@ const misProductos = [
         nombre: "Bálsamo labial",
         cantidad: "13 gr",
         precio: 300,
+        categoria: "general",
         descripcion: "Humecta y repara la piel de los labios. Vainilla.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto9.jpg'
     },
@@ -76,6 +85,7 @@ const misProductos = [
         nombre: "Óleo corporal",
         cantidad: "35 gr",
         precio: 350,
+        categoria: "general",
         descripcion: "Humecta y nutre la piel del cuerpo. Trata areas resecas. Azahar.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto10.jpg'
     },
@@ -84,6 +94,7 @@ const misProductos = [
         nombre: "Crema para manos",
         cantidad: "100 gr",
         precio: 620,
+        categoria: "general",
         descripcion: "Humecta y repara la piel de las manos.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto11.jpg'
     },
@@ -92,6 +103,7 @@ const misProductos = [
         nombre: "Crema corporal",
         cantidad: "250 gr",
         precio: 1160,
+        categoria: "general",
         descripcion: "Hidrata, humecta y nutre la piel del cuerpo. Brinda protección y suavidad.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto12.jpg'
     },
@@ -100,6 +112,7 @@ const misProductos = [
         nombre: "Jabón facial Madagascar",
         cantidad: "30 gr",
         precio: 350,
+        categoria: "facial",
         descripcion: "Realiza una limpieza profunda del rostro de acuerdo a sus necesidades. Pieles secas. Uso diario.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto13.jpg'
     },
@@ -108,6 +121,7 @@ const misProductos = [
         nombre: "Jabón facial Amazonia",
         cantidad: "30 gr",
         precio: 350,
+        categoria: "facial",
         descripcion: "Realiza una limpieza profunda del rostro de acuerdo a sus necesidades. Pieles grasas. Uso diario.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto14.jpg'
     },
@@ -116,6 +130,7 @@ const misProductos = [
         nombre: "Jabón facial Malesia",
         cantidad: "30 gr",
         precio: 350,
+        categoria: "facial",
         descripcion: "Realiza una limpieza profunda del rostro de acuerdo a sus necesidades. Pieles sensibles y maduras. Uso diario.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto15.jpg'
     },
@@ -124,6 +139,7 @@ const misProductos = [
         nombre: "Gel de limpieza facial",
         cantidad: "100 gr",
         precio: 530,
+        categoria: "facial",
         descripcion: "Limpia e hidrata la piel del rostro delicadamente. Quita el maquillaje. Lavanda.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto16.jpg'
     },
@@ -132,6 +148,7 @@ const misProductos = [
         nombre: "Hidrolato de lavanda",
         cantidad: "100 cc",
         precio: 520,
+        categoria: "facial",
         descripcion: "Tónico natural.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto17.jpg'
     },
@@ -140,6 +157,7 @@ const misProductos = [
         nombre: "Hidrolato de romero",
         cantidad: "100 cc",
         precio: 520,
+        categoria: "facial",
         descripcion: "Tónico natural.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto18.jpg'
     },
@@ -148,6 +166,7 @@ const misProductos = [
         nombre: "Agua micelar de azahar y geranio",
         cantidad: "100 cc",
         precio: 470,
+        categoria: "facial",
         descripcion: "Limpia y nutre la piel del rostro. Pieles normales a secas.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto19.jpg'
     },
@@ -156,6 +175,7 @@ const misProductos = [
         nombre: "Agua micelar de romero y árbol de té",
         cantidad: "100 cc",
         precio: 470,
+        categoria: "facial",
         descripcion: "Limpia y nutre la piel del rostro. Pieles grasas.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto20.jpg'
     },
@@ -164,6 +184,7 @@ const misProductos = [
         nombre: "Crema facial de dia",
         cantidad: "100 gr",
         precio: 760,
+        categoria: "facial",
         descripcion: "Hidrata, humecta y nutre el rostro acorde a sus necesidades durante el dia. Para pieles normales a secas.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto21.jpg'
     },
@@ -172,6 +193,7 @@ const misProductos = [
         nombre: "Crema facial de dia",
         cantidad: "100 gr",
         precio: 760,
+        categoria: "facial",
         descripcion: "Hidrata, humecta y nutre el rostro acorde a sus necesidades durante el dia. Para pieles grasas.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto22.jpg'
     },
@@ -180,6 +202,7 @@ const misProductos = [
         nombre: "Crema facial de noche",
         cantidad: "100 gr",
         precio: 800,
+        categoria: "facial",
         descripcion: "Regenerante y antioxidante. Apta para todo tipo de pieles.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto23.jpg'
     },
@@ -188,6 +211,7 @@ const misProductos = [
         nombre: "Protector solar",
         cantidad: "100 gr",
         precio: 760,
+        categoria: "facial",
         descripcion: "FPS 40. Protege la piel de los rayos solares, UVA y UV. Filtro físico.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto24.jpg'
     },
@@ -196,6 +220,7 @@ const misProductos = [
         nombre: "Gel arce",
         cantidad: "100 gr",
         precio: 530,
+        categoria: "facial",
         descripcion: "Humecta, calma y desinflama la piel luego del rasurado o depilado.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto25.jpg'
     },
@@ -204,6 +229,7 @@ const misProductos = [
         nombre: "Mascarilla facial de arcilla blanca",
         cantidad: "100 gr",
         precio: 500,
+        categoria: "facial",
         descripcion: "Nutre la piel en profundidad, absorbe impurezas y sebo. Arcilla blanca y árbol de té.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto26.jpg'
     },
@@ -212,6 +238,7 @@ const misProductos = [
         nombre: "Mascarilla facial de carbón activado",
         cantidad: "100 gr",
         precio: 500,
+        categoria: "facial",
         descripcion: "Nutre la piel en profundidad, absorbe impurezas y sebo. Carbón activado y limón",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto27.jpg'
     },
@@ -220,6 +247,7 @@ const misProductos = [
         nombre: "Mascarilla facial de cacao",
         cantidad: "100 gr",
         precio: 500,
+        categoria: "facial",
         descripcion: "Nutre la piel en profundidad, absorbe impurezas y sebo. Cacao y vainilla",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto28.jpg'
     },
@@ -228,6 +256,7 @@ const misProductos = [
         nombre: "Discos desmaquillantes",
         cantidad: "4 unidades",
         precio: 550,
+        categoria: "facial",
         descripcion: "Kit de 4 unidades, 2 simples y 2 dobles.",
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto29.jpg'
     }

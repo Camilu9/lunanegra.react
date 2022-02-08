@@ -28,6 +28,11 @@ function ItemCount({ stock, initial }){
         setCantidad(cantidad + 1)};
     };
 
+const onAdd = () => {
+    console.log(`${cantidad} productos se agregaron al carrito.`);
+    setCantidad(initial);
+};
+
     return(
         <div>
             <div className='item-count-container'>
@@ -39,6 +44,7 @@ function ItemCount({ stock, initial }){
                     <img src={suma} />
                 </button>
             </div>
+            <button onClick={onAdd} className='agregar-carrito'>Agregar al carrito</button>
             <p className='mensaje-stock'>{msjStock !== '' && msjStock}</p>
         </div>
     )
