@@ -18,6 +18,12 @@
     border-radius: 7px;
     border: gray;
     border-style: solid;
+    height: 30px;
+    align-items: center;
+}
+
+.item-count-container h3{
+    font-size: large;
 }
 
 .suma{

@@ -63,11 +63,11 @@ ul{
 }
 
 nav li:hover{
-    background-color: white;
+    background-color: #cf7e52;
 }
 
 nav li ul li:hover{
-    background-color: white;
+    background-color: #cf7e52;
 }
 
 nav li{
@@ -77,7 +77,7 @@ nav li{
 
 li a.active{
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 li a{

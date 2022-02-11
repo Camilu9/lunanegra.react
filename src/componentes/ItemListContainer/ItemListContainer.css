@@ -1,11 +1,11 @@
 .pItem{
     color: #cb997e;
-    padding: 15px;
 }
 
 .div-contenedor{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 

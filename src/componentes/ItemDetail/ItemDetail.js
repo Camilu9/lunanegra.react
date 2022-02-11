@@ -1,6 +1,17 @@
-import './ItemDetail.css'
+import './ItemDetail.css';
+import ItemCount from '../ItemCount/ItemCount.js';
+import { useState } from 'react';
+import { Link } from 'react-router-dom' 
 
 export default function ItemDetail( {producto} ){
+
+    const [cantidad, setCantidad] = useState();
+
+    function onAddProducto(nuevaCantidadProducto){
+        console.log(nuevaCantidadProducto);
+        setCantidad(nuevaCantidadProducto);
+    };
+
 return(
         <div key={producto.id} className='productoCard'>
             <div className='divImg'>
@@ -11,7 +22,12 @@ return(
                 <p>Cantidad: {producto.cantidad}</p>
                 <p>Descripcion: {producto.descripcion}</p>
                 <p>Precio: ${producto.precio}</p>
-                <button className='agregar-carrito'>Agregar al carrito</button>
+                {
+                    !cantidad ? 
+                    <ItemCount initial={1} stock={5} onAdd={onAddProducto} /> :
+                    <Link to='/carrito'>Ir al carrito</Link>
+                }
+                
             </div>
         </div>
     )

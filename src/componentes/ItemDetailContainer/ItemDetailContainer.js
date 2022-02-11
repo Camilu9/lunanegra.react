@@ -12,7 +12,6 @@ export default function ItemDetailContainer(){
         getItems().then(function(productos){
             const producto = productos.find((item) => item.id === Number(itemId));
             setProducto(producto);
-            console.log(itemId)
         });
     }, [itemId]);
     return(

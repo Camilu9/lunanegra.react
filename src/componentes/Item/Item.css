@@ -3,8 +3,8 @@
     border-radius: 7px;
     padding: 7px;
     width: 240px; 
-    margin: 0.2%;
-    height: 110%;
+    margin: auto;
+    height: 450px;
 }
 
 .producto p{
@@ -44,10 +44,14 @@
 }
 
 .titulo{
-    height: 8%;
+    height: 10%;
 }
 
 
 .producto a{
     text-decoration: none;
+}
+
+.titulo:hover{
+    zoom: 110%;
 }

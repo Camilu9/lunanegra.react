@@ -20,3 +20,7 @@
 # Imagenes
 
     Las imágenes fueron enviadas por las emprendedoras con su consentimiento.
+
+# Video del funcionamiento de la web hasta el momento
+
+![Alt Text](https://drive.google.com/file/d/1UvEUNkRVz12pB5cwU8f6mpcncKsFR-qc/view?usp=sharing)

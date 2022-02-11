@@ -3,7 +3,7 @@ import './ItemCount.css';
 import suma from '../assets/signoMas.png';
 import resta from '../assets/signoMenos.png';
 
-function ItemCount({ stock, initial }){
+function ItemCount({ stock, initial, onAdd }){
 
     const [cantidad, setCantidad] = useState(initial);
     const [msjStock, setMsjStock] = useState('')
@@ -17,21 +17,18 @@ function ItemCount({ stock, initial }){
     }, [cantidad])
 
     function disminuir() {
-        console.log(cantidad);
         if (cantidad > initial) {
         setCantidad(cantidad - 1)};
     };
 
     function aumentar() {
-        console.log('sumo');
         if (cantidad < stock){
         setCantidad(cantidad + 1)};
     };
 
-const onAdd = () => {
-    console.log(`${cantidad} productos se agregaron al carrito.`);
-    setCantidad(initial);
-};
+    function addToCart(){
+        onAdd(cantidad);
+    };
 
     return(
         <div>
@@ -44,10 +41,9 @@ const onAdd = () => {
                     <img src={suma} />
                 </button>
             </div>
-            <button onClick={onAdd} className='agregar-carrito'>Agregar al carrito</button>
+            <button onClick={addToCart} className='agregar-carrito'>Agregar al carrito</button>
             <p className='mensaje-stock'>{msjStock !== '' && msjStock}</p>
         </div>
     )
 };
-
 export default ItemCount;
