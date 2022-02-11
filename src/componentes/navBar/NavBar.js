@@ -13,7 +13,6 @@ function NavBar() {
                 <ul className='menu'>
                     <li><NavLink to="/"><p>Inicio</p></NavLink></li>
                     <li><NavLink to="/marca"><p>Marca</p></NavLink></li>
-                    <li><NavLink to="/contacto"><p>Contacto</p></NavLink></li>
                     <li><p>Productos</p>
                         <ul>
                             <li><NavLink to="/categoria/general"><p>Cuidados e higiene general</p></NavLink></li>
@@ -22,7 +21,7 @@ function NavBar() {
                         </ul>
                     </li>
                 </ul>
-                <CartWidget />
+                <NavLink to="/carrito"><CartWidget /></NavLink>
             </nav>
         </div>
     );

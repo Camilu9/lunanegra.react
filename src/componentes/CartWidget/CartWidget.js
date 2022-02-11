@@ -3,7 +3,10 @@ import  './CartWidget.css';
 
 function CartWidget() {
     return (
-            <p className='pCart'><img src={carrito} className='carrito' alt='carrito'/>5</p>
+        <div className='div-cart-widget'>
+            <img src={carrito} className='carrito' alt='carrito'/>
+            <p className='pCart'>5</p>
+        </div>
     );
 };
 

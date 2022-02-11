@@ -1,0 +1,41 @@
+.marca h1{
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    color: #cb997e;
+}
+
+.marca p, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.marca h2{
+    color: #ddbea9;
+    text-align: center;
+}
+
+.marca h3{
+    color: #cb997e;
+}
+
+.marca div{
+    padding: 20px;
+}
+
+.div-contenedor-imgs-marca{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-contenedor-imgs-marca div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.marca img{
+    width: 70px;
+    height: 100px;
+    border-radius: 7px;
+}
+
