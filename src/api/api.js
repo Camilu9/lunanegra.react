@@ -135,7 +135,7 @@ const misProductos = [
         imgUrl: 'https://camilu9.github.io/lunaNegra/multimedia/productos/producto15.jpg'
     },
     {
-        id: "16",
+        id: 16,
         nombre: "Gel de limpieza facial",
         cantidad: "100 gr",
         precio: 530,

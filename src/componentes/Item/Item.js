@@ -9,7 +9,7 @@ export default function Item( { item } ) {
                 <h2 className='titulo'>{item.nombre}</h2>
                 <p>Cantidad: {item.cantidad}</p>
                 <p>Precio: ${item.precio}</p>
-                <button className='agregar-carrito'>Agregar al carrito</button>
+                <button className='agregar-carrito'>Comprar</button>
             </Link>
         </div>
     )

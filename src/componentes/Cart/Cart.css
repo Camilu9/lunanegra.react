@@ -1,0 +1,43 @@
+.div-cart {
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-top: 0%;
+}
+
+.div-cart h1{
+    text-align: center;
+}
+
+.button-finalizar {
+    width: 100%;
+    border: rgb(167, 91, 167);
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(167, 91, 167);
+    background-color: white;
+    font-size: medium;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button-finalizar:hover{
+    background-color: whitesmoke;
+    color: rgb(100, 41, 100);
+}
+
+.button-vaciar{
+    border: rgb(61, 13, 13);
+    border-style: solid;
+    border-radius: 5px;
+    color: rgb(61, 13, 13);
+    background-color: white;
+    font-size: medium;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button-vaciar:hover{
+    background-color: whitesmoke;
+    color: rgb(102, 23, 23);
+}
+

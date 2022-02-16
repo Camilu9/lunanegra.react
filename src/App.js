@@ -4,31 +4,39 @@ import ItemListContainer from './componentes/ItemListContainer/ItemListContainer
 import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
 import Marca from './componentes/Marca/Marca'
 import { Routes, Route } from "react-router-dom";
+import CartContextProvider from './context/CartContext.js';
+import Cart from './componentes/Cart/Cart';
 
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Routes>
-        <Route 
-          path="/" 
-          element={<ItemListContainer greeting="Bienvenido a Luna Negra, tu tienda de cosmética natural" 
-        />} />
-        <Route 
-          path="/producto/:itemId" 
-          element={<ItemDetailContainer 
-        />} />
-        <Route 
-          path="/categoria/:nombreCategoria" 
-          element={<ItemListContainer greeting="Productos disponibles en esta categoria"
-        />} />
-        <Route
-          path="/marca"
-          element={<Marca 
+    <CartContextProvider>
+      <div>
+        <NavBar />
+        <Routes>
+          <Route 
+            path="/" 
+            element={<ItemListContainer greeting="Bienvenido a Luna Negra, tu tienda de cosmética natural" 
           />} />
-      </Routes>
-    </div>
+          <Route 
+            path="/producto/:itemId" 
+            element={<ItemDetailContainer 
+          />} />
+          <Route 
+            path="/categoria/:nombreCategoria" 
+            element={<ItemListContainer greeting="Productos disponibles en esta categoria"
+          />} />
+          <Route
+            path="/marca"
+            element={<Marca 
+          />} />
+            <Route
+            path="/carrito"
+            element={<Cart 
+          />} />
+        </Routes>
+      </div>
+    </CartContextProvider>
   );
 }
 
