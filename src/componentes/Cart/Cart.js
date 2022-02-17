@@ -8,6 +8,15 @@ export default function Cart(){
 
     const { cart, clear } = useContext(CartContext);
 
+    const precioXCantidad = cart.map(producto => {
+        const cantidad = producto.cantidadAgregada;
+        const precio = producto.precio;
+        const resultado = cantidad * precio;
+        return resultado;
+    });
+
+    const precioTotal = precioXCantidad.reduce((a, b) => a + b, 0);
+
     return(
         <div className='div-cart'>
             <h1>Carrito de compras</h1>
@@ -25,7 +34,7 @@ export default function Cart(){
                     )) }
                     <div>
                         <h4>Total de la compra</h4>
-                        <h4>$</h4>
+                        <h4>${precioTotal}</h4>
                         <button onClick={ clear } className='button-vaciar'>Vaciar el carrito</button>
                     </div>
                     <button className='button-finalizar'>Finalizar compra</button>

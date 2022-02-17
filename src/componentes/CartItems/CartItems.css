@@ -1,6 +1,7 @@
 .div-cart-item-info img{
     height: 50px;
     width: 50px;
+    padding-right: 15px;
 }
 
 .div-cart-item{
@@ -21,22 +22,31 @@
 
 .div-cart-item-info{
     display: flex;
-    justify-content: space-between;
-    width: 300px;
+    width: auto;
 }
 
 .div-cart-item-precio img{
     float: right;
     height: 18px;
     width: 18px;
+    margin-left: 0%;
 }
 
 .div-cart-item-precio p{
     margin-bottom: 0%;
+    width: 110px;
+    margin-right: 0%;
 }
 
 .div-cart-item-info p{
     margin-top: auto;
     margin-bottom: auto;
+    font-weight: bold;
 }
+
+.div-cart-item-precio{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
