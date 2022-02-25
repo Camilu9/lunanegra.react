@@ -16,6 +16,12 @@ export default function CheckOut(){
 
     const onSubmit = (event) => {
         event.preventDefault();
+        console.log(mostrar())
+    }
+
+    function mostrar(){
+        const buyer = {name: nombre, phone: telefono, email: correo};
+        return buyer;
     }
 
     const { cart, precioTotal } = useContext(CartContext);
