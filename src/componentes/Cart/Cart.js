@@ -6,16 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Cart(){
 
-    const { cart, clear } = useContext(CartContext);
-
-    const precioXCantidad = cart.map(producto => {
-        const cantidad = producto.cantidadAgregada;
-        const precio = producto.precio;
-        const resultado = cantidad * precio;
-        return resultado;
-    });
-
-    const precioTotal = precioXCantidad.reduce((a, b) => a + b, 0);
+    const { cart, clear, precioTotal } = useContext(CartContext);
 
     return(
         <div className='div-cart'>
@@ -37,7 +28,9 @@ export default function Cart(){
                         <h4>${precioTotal}</h4>
                         <button onClick={ clear } className='button-vaciar'>Vaciar el carrito</button>
                     </div>
-                    <button className='button-finalizar'>Finalizar compra</button>
+                    <Link to="/checkOut">
+                        <button className='button-comenzar-compra'>Iniciar compra</button>
+                    </Link>
                 </>
             )}
         </div>

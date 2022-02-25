@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.button-finalizar {
+.button-comenzar-compra {
     width: 100%;
     border: rgb(167, 91, 167);
     border-style: solid;
@@ -20,7 +20,7 @@
     cursor: pointer;
 }
 
-.button-finalizar:hover{
+.button-comenzar-compra:hover{
     background-color: whitesmoke;
     color: rgb(100, 41, 100);
 }

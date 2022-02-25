@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import { getItems } from '../../api/api.js';
 import ItemList from '../ItemList/ItemList.js';
 import { useParams } from 'react-router-dom';
-import { getDocs, collection } from 'firebase/firestore';
-import { baseDatos } from '../Firebase'
 
 
 function ItemListContainer({greeting}){

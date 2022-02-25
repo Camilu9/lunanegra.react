@@ -6,6 +6,7 @@ import Marca from './componentes/Marca/Marca'
 import { Routes, Route } from "react-router-dom";
 import CartContextProvider from './context/CartContext.js';
 import Cart from './componentes/Cart/Cart';
+import CheckOut from './componentes/CheckOut/CheckOut';
 
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
             <Route
             path="/carrito"
             element={<Cart 
+          />} />
+          <Route
+          path="/checkOut"
+          element={<CheckOut
           />} />
         </Routes>
       </div>

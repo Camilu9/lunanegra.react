@@ -1,4 +1,3 @@
-import { getItems } from '../../api/api';
 import { useState, useEffect } from 'react';
 import ItemDetail from '../ItemDetail/ItemDetail.js'
 import './ItemDetailContainer.css'
