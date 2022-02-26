@@ -1,4 +1,4 @@
-import { getDocs, collection } from 'firebase/firestore'
+import { getDocs, collection } from 'firebase/firestore';
 import { baseDatos } from "../componentes/Firebase";
 
 

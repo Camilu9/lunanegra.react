@@ -7,7 +7,7 @@ import { CartContext } from '../../context/CartContext';
 export default function ItemDetail( {producto} ){
 
     const [nuevaCantidad, setNuevaCantidad] = useState();
-    const { addToCart, cart } = useContext(CartContext)
+    const { addToCart } = useContext(CartContext)
 
     function onAddProducto(quantity){
         setNuevaCantidad(quantity);
@@ -27,9 +27,15 @@ return(
                 {
                     !nuevaCantidad ? 
                     <ItemCount initial={1} stock={5} onAdd={onAddProducto} /> :
-                    <Link to='/carrito'>Ir al carrito</Link>
+                    <div>
+                        <Link to='/carrito'>
+                            <button>Ir al carrito</button>
+                        </Link>
+                        <Link to='/'>
+                            <button>Seguir comprando</button>
+                        </Link>
+                    </div>
                 }
-                
             </div>
         </div>
     )
