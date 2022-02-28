@@ -1,5 +1,5 @@
 import { getDocs, collection } from 'firebase/firestore';
-import { baseDatos } from "../componentes/Firebase";
+import { baseDatos } from "../Firebase";
 
 
 const promesaProductos = new Promise((resolve, reject) => {

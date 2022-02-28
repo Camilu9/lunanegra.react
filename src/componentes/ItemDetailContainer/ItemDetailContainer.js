@@ -3,7 +3,7 @@ import ItemDetail from '../ItemDetail/ItemDetail.js'
 import './ItemDetailContainer.css'
 import { useParams } from 'react-router-dom';
 import { getDoc, doc } from 'firebase/firestore';
-import { baseDatos } from '../Firebase';
+import { baseDatos } from '../../Firebase';
 
 export default function ItemDetailContainer(){
     const [producto, setProducto] = useState([]);

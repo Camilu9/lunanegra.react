@@ -7,12 +7,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDn3P22oVfq2zxMyiXfggjltDNJ1nZHruc",
-    authDomain: "luna-coderhouse.firebaseapp.com",
-    projectId: "luna-coderhouse",
-    storageBucket: "luna-coderhouse.appspot.com",
-    messagingSenderId: "112248087352",
-    appId: "1:112248087352:web:f87e9eb1a4aee6692fd7cd"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID
 };
 
 // Initialize Firebase
