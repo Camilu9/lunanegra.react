@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './ItemCount.css';
 import suma from '../assets/signoMas.png';
 import resta from '../assets/signoMenos.png';
+import './ItemCount.css';
 
 function ItemCount({ stock, initial, onAdd }){
 
@@ -31,7 +31,7 @@ function ItemCount({ stock, initial, onAdd }){
     };
 
     return(
-        <div>
+        <>
             <div className='item-count-container'>
                 <button onClick={disminuir} className='resta'>
                     <img src={resta} />
@@ -43,7 +43,7 @@ function ItemCount({ stock, initial, onAdd }){
             </div>
             <button onClick={addToCart} className='agregar-carrito'>Agregar al carrito</button>
             <p className='mensaje-stock'>{msjStock !== '' && msjStock}</p>
-        </div>
+        </>
     )
 };
 export default ItemCount;

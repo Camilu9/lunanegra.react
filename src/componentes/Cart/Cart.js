@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import './Cart.css'
+import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 import CartItems from '../CartItems/CartItems';
-import { Link } from 'react-router-dom';
+import './Cart.css';
 
 export default function Cart(){
 

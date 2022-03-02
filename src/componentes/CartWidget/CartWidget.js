@@ -1,7 +1,8 @@
-import carrito from '../assets/carrito.png';
-import  './CartWidget.css';
-import { CartContext } from '../../context/CartContext';
 import { useContext } from 'react';
+import carrito from '../assets/carrito.png';
+import { CartContext } from '../../context/CartContext';
+import  './CartWidget.css';
+
 
 function CartWidget() {
 

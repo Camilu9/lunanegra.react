@@ -1,9 +1,8 @@
-import { useState } from 'react';
-import './CheckOut.css';
-import React, { useContext } from 'react';
-import { CartContext } from '../../context/CartContext';
-import CartItems from '../CartItems/CartItems';
+import React, { useContext, useState } from 'react';
 import { collection, getFirestore, addDoc } from 'firebase/firestore';
+import CartItems from '../CartItems/CartItems';
+import { CartContext } from '../../context/CartContext';
+import './CheckOut.css';
 
 
 export default function CheckOut(){

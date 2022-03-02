@@ -1,7 +1,7 @@
-import './Marca.css';
 import natural from '../assets/natural.jpg';
 import mano from '../assets/mano.jpg';
 import libre from '../assets/libre.jpg';
+import './Marca.css';
 
 export default function Marca(){
     return(

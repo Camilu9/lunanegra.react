@@ -4,18 +4,23 @@
     de la cosmética natural. Cada producto es elaborado de manera artesanal,
     con materiales naturales y libres de crueldad animal.
 
-# Estado del proyecto
-
-    Proyecto en desarrollo.
 
 # Tecnologías utilizadas
 
     React, JavaScript, Css y Html
 
+# Depenedencias implementadas
+
+    React-Router-Dom para navegar entre componentes y Firebase para guardar y utilizar documentos en su base de datos.
+
+# Hooks utilizados
+
+    UseState para guardar estados; useEffect para llevar a cabo funciones teniendo en cuenta el cambio de un componente; useContext para crear un contexto que tenga funciones, estados y datos que necesite usar en sus componentes hijos, facilitando el paso de informacion y useParams para hacer dinámica la URL.
+
 # Autor
 
     Camila Debenedetto
-    contacto: 351 12312312
+    contacto: +54 351 2038967
 
 # Imagenes
 

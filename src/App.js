@@ -1,19 +1,19 @@
-import './App.css';
+import { Routes, Route } from "react-router-dom";
 import NavBar from './componentes/NavBar/NavBar.js';
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainer.js';
 import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
 import Marca from './componentes/Marca/Marca'
-import { Routes, Route } from "react-router-dom";
 import CartContextProvider from './context/CartContext.js';
 import Cart from './componentes/Cart/Cart';
 import CheckOut from './componentes/CheckOut/CheckOut';
+import './App.css';
 
 
 
 function App() {
   return (
     <CartContextProvider>
-      <div>
+      <>
         <NavBar />
         <Routes>
           <Route 
@@ -41,7 +41,7 @@ function App() {
           element={<CheckOut
           />} />
         </Routes>
-      </div>
+      </>
     </CartContextProvider>
   );
 }

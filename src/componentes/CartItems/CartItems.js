@@ -1,7 +1,7 @@
-import './CartItems.css';
-import borrar from '../assets/borrar.png';
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
+import borrar from '../assets/borrar.png';
+import './CartItems.css';
 
 export default function CartItems( {producto} ){
 
