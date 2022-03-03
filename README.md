@@ -28,4 +28,4 @@
 
 # Video del funcionamiento de la web hasta el momento
 
-![Alt Text](https://drive.google.com/file/d/1UvEUNkRVz12pB5cwU8f6mpcncKsFR-qc/view?usp=sharing)
+![image](https://github.com/Camilu9/lunanegra.react/blob/main/proyecto_react.gif?raw=true)
