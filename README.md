@@ -26,6 +26,6 @@
 
     Las imágenes fueron enviadas por las emprendedoras con su consentimiento.
 
-# Video del funcionamiento de la web hasta el momento
+# Video del funcionamiento de la web
 
 ![image](https://github.com/Camilu9/lunanegra.react/blob/main/proyecto_react.gif?raw=true)
